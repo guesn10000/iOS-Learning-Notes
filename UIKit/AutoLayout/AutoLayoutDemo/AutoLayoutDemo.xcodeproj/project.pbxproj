@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1805585219E135D100206CEA /* ManualALViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1805585119E135D100206CEA /* ManualALViewController.m */; };
 		18C0C81519D85E080061B184 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C0C81419D85E080061B184 /* Foundation.framework */; };
 		18C0C81719D85E080061B184 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C0C81619D85E080061B184 /* CoreGraphics.framework */; };
 		18C0C81919D85E080061B184 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C0C81819D85E080061B184 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1805585019E135D100206CEA /* ManualALViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManualALViewController.h; sourceTree = "<group>"; };
+		1805585119E135D100206CEA /* ManualALViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManualALViewController.m; sourceTree = "<group>"; };
 		18C0C81119D85E080061B184 /* AutoLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C0C81419D85E080061B184 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		18C0C81619D85E080061B184 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				18C0C82619D85E080061B184 /* Main.storyboard */,
 				18C0C82919D85E080061B184 /* ViewController.h */,
 				18C0C82A19D85E080061B184 /* ViewController.m */,
+				1805585019E135D100206CEA /* ManualALViewController.h */,
+				1805585119E135D100206CEA /* ManualALViewController.m */,
 				18C0C82C19D85E080061B184 /* Images.xcassets */,
 				18C0C81B19D85E080061B184 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18C0C82B19D85E080061B184 /* ViewController.m in Sources */,
+				1805585219E135D100206CEA /* ManualALViewController.m in Sources */,
 				18C0C82519D85E080061B184 /* AppDelegate.m in Sources */,
 				18C0C82119D85E080061B184 /* main.m in Sources */,
 			);
@@ -456,6 +462,7 @@
 				18C0C84519D85E080061B184 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18C0C84619D85E080061B184 /* Build configuration list for PBXNativeTarget "AutoLayoutDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				18C0C84819D85E080061B184 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

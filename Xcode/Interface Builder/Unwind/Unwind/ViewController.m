@@ -1,8 +1,8 @@
 //
 //  ViewController.m
-//  HideStatusBar
+//  Unwind
 //
-//  Created by Jymn_Chen on 14-9-29.
+//  Created by Jymn_Chen on 14/10/31.
 //  Copyright (c) 2014年 Jymn_Chen. All rights reserved.
 //
 
@@ -24,6 +24,10 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)vc_unwindMethod:(UIStoryboardSegue *)sender {
+    NSLog(@"vc_unwind");
 }
 
 @end
